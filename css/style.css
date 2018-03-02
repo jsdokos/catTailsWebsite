@@ -1,4 +1,4 @@
-@media screen and (min-width:640px) 
+@media screen and (min-width:640px) /* Display for Computers*/
 {  
   #main 
   {
@@ -11,7 +11,8 @@
       width: 60%;
   }
 }
-@media screen and (max-width:639px) { 
+@media screen and (max-width:639px) /*display for mobile rules*/
+{ 
 #main 
   {
       margin-top: 1em;
