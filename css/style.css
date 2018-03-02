@@ -1,14 +1,23 @@
-#main 
-{
-    margin-top: 1em; 
-    /*text-align: center;
-    margin-left: 10em;
-    margin-right: 10em;*/
-    margin-right: auto;
-    margin-left: auto;
-    width: 60%;
+@media screen and (min-width:480px) 
+{  
+  #main 
+  {
+      margin-top: 1em; 
+      /*text-align: center;
+      margin-left: 10em;
+      margin-right: 10em;*/
+      margin-right: auto;
+      margin-left: auto;
+      width: 60%;
+  }
 }
-
+@media screen and (max-width:479px) { 
+#main 
+  {
+      margin-top: 1em;
+      margin-left: 1em;
+  }
+}
 
 @media screen and (max-width:1px) {  
     img {
