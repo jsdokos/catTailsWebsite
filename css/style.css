@@ -2,10 +2,6 @@
 {  
   #main 
   {
-      margin-top: 1em; 
-      /*text-align: center;
-      margin-left: 10em;
-      margin-right: 10em;*/
       margin-right: auto;
       margin-left: auto;
       width: 60%;
@@ -14,10 +10,19 @@
 @media screen and (max-width:639px) /*display for mobile rules*/
 { 
 #main 
-  {
-      margin-top: 1em;
-      margin-left: 1em;
+  { 
+    margin-left: 1em;
   }
+}
+
+#main
+{
+  margin-top: 1em;
+}
+
+body
+{
+  background:  #fcf8f2;
 }
 
 @media screen and (max-width:1px) {  
