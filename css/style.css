@@ -6,12 +6,22 @@
       margin-left: auto;
       width: 60%;
   }
+
+  #petfinder-mobile
+  {
+    display: none;
+  }
 }
 @media screen and (max-width:639px) /*display for mobile rules*/
 { 
-#main 
+  #main 
   { 
     margin-left: 1em;
+  }
+
+  #petfinder-computer
+  {
+    display: none;
   }
 }
 
@@ -25,8 +35,15 @@ body
   background:  #fcf8f2;
 }
 
-@media screen and (max-width:1px) {  
+@media screen and (max-width:1px) 
+{  
     img {
       display: none;
     }
-  }
+}
+
+#petfinder-computer
+{
+
+  
+}
