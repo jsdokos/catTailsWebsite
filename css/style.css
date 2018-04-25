@@ -24,6 +24,11 @@
     display: none;
   }
 }
+img
+{
+  width: auto;
+  height: auto;
+}
 
 #main
 {
